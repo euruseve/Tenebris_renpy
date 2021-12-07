@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/prologue_home.rpy", line 122, in script
+    show bg alice-death Dissolve(.5)
+Exception: Image 'bg alice-death' does not accept attributes 'Dissolve (.5)'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/prologue_home.rpy", line 122, in script
+    show bg alice-death Dissolve(.5)
+  File "renpy/ast.py", line 1192, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1162, in show_imspec
+    atl=atl)
+  File "renpy/exports.py", line 744, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "renpy/display/image.py", line 409, in find_target
+    self.target = target._duplicate(a)
+  File "renpy/display/core.py", line 390, in _duplicate
+    args.extraneous()
+  File "renpy/display/core.py", line 271, in extraneous
+    " ".join(self.args),
+Exception: Image 'bg alice-death' does not accept attributes 'Dissolve (.5)'.
+
+Windows-10-10.0.19041
+Ren'Py 7.4.8.1895
+Tenebris 
+Wed Dec  1 02:00:16 2021

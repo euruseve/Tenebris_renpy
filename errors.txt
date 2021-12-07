@@ -1,0 +1,18 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/prologue_home.rpy", line 140: expected statement.
+    -
+     ^
+
+File "game/prologue_home.rpy", line 142: expected statement.
+    -  –
+        ^
+
+File "game/prologue_home.rpy", line 144: expected statement.
+    -
+     ^
+
+Ren'Py Version: Ren'Py 7.4.8.1895
+Wed Dec  1 01:57:02 2021
